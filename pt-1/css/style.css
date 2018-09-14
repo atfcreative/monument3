@@ -2,12 +2,11 @@
 body {
 	font-family: sans-serif;
 	background-color: #fff;
-	height: 1000px;
 }
 
 nav {
 	margin: 40px 0 0 0;
-	
+
 }
 
 nav ul {
@@ -34,12 +33,16 @@ li a {
 	border-bottom: none;
 	padding-right: 80px;
 	text-align: center;
+	color: #7b98aa;
+	font-size: 1em;
 
 }
 
 header {
-	background-image: url("../images/blog_header_bg.jpg"); 
-	height: 478px;
+	background-image: url("../images/blog_header_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 p {
@@ -74,8 +77,9 @@ h3 {
 }
 
 main {
+	width: 80%;
 	margin: 0 auto;
-	padding: 40px 80px;
+	padding: 0px 0px;
 }
 
 .sublist {
@@ -96,14 +100,18 @@ main {
 .image {
 	margin-bottom: 50px;
 }
- 
+
+.main_pic {
+	width: 100%;
+}
+
 footer {
 	background-color: #cdf3f6;
 	overflow: auto;
 	text-align: center;
 	padding: 20px 0 0 0;
 }
-	
+
 footer p {
 	margin: 30px 0 20px 0;
 	}
